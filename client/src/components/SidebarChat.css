@@ -1,0 +1,23 @@
+.sidebarChat {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.sidebarChat__heading {
+  margin-left: 15px;
+}
+
+.sidebarChat__timestamp {
+  margin-left: 5px;
+}
+.sidebar__chats {
+  background-color: white;
+
+  overflow-y: scroll;
+}
+
+.sidebarChat:hover {
+  background-color: lightgray;
+}
